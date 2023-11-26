@@ -395,9 +395,7 @@ main {
   width: 100%;
   padding-top: 28px;
   padding-bottom: 60px;
-  background: linear-gradient(to right, #FFFFFF 58%, #800A7A 42%);
-  background-size: auto 100%;
-  background-repeat: no-repeat;
+  background: linear-gradient(to right, #FFFFFF 56%, #800A7A 44%);
 }
 .site-header__wrapper {
   display: flex;
@@ -420,7 +418,7 @@ main {
 }
 .site-header__navlink {
   color: #222124;
-  font-family: "Inter" sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: normal;
@@ -430,10 +428,9 @@ main {
 .site-header__contact {
   display: flex;
   align-items: center;
-  border-right: 1px solid #800A7A;
+  border-right: 1px solid #FFFFFF;
   height: 43px;
-  padding-left: 40px;
-  margin-right: 40px;
+  padding-right: 40px;
 }
 .site-header__contact-logo {
   margin-right: 10px;
@@ -441,7 +438,7 @@ main {
 .site-header__contact-number {
   width: 136px;
   color: #FFF;
-  font-family: "Inter" sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 20px;
@@ -455,6 +452,7 @@ main {
   align-items: center;
   position: relative;
   line-height: 20px;
+  margin-left: 40px;
 }
 .site-header__korzinka-logo {
   margin-right: 10px;
@@ -467,11 +465,128 @@ main {
 .site-header__total-sum {
   height: 42px;
   color: #FFF;
-  font-family: "Inter" sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 24px;
   font-weight: 700;
 }
 .site-header__total-sum span {
   font-size: 12px;
   font-weight: 400;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*HEADER STYLES END */
+/* MAIN STYLES START */
+.site-main {
+  width: 100%;
+  height: 661px;
+  margin-bottom: 80px;
+  border-bottom: 1xp solid red;
+  background: linear-gradient(to right, #FFFFFF 56%, #800A7A 44%);
+}
+.site-main__wrapper-top {
+  display: flex;
+  align-items: bottom;
+}
+.site-main__intro-heading {
+  width: 470px;
+  color: #222124;
+  font-family: "Inter", sans-serif;
+  font-size: 80px;
+  font-weight: 900;
+  line-height: 85px;
+  margin-bottom: 14px;
+}
+.site-main__description {
+  color: #222124;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.site-main__pitsa {
+  width: 255px;
+  height: 200px;
+  background: linear-gradient(315deg, #FFC85C 1.32%, #F1B301 96.68%);
+  border-radius: 12px;
+}
+.site-main__button {
+  color: #FFF;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+  border-radius: 19px;
+  background: rgba(255, 255, 255, 0.2);
+  margin-top: 20px;
+  margin-left: 31px;
+  padding: 11px 23px;
+}
+.site-main__fire-svg {
+  margin-right: 11px;
+}
+.site-main__pitsa-info {
+  display: flex;
+  align-items: center;
+}
+.site-main__pitsa-title {
+  color: #E76A06;
+  font-family: "Inter", sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 32px;
+  text-transform: uppercase;
+  margin-left: 30px;
+  width: 79px;
+}
+.site-main__pitsa-image {
+  margin-top: -15px;
+}
+.site-main__wrapper-bottom {
+  width: 551px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -100px;
+}
+.site-main__combo {
+  width: 255px;
+  height: 200px;
+  border-radius: 12px;
+  background: #800A7A;
+}
+.site-main__combo-svg {
+  margin-right: 10px;
+}
+.site-main__combo-info {
+  display: flex;
+  align-items: center;
+}
+.site-main__combo-title {
+  color: #FC96F7;
+  font-family: "Inter", sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 32px;
+  text-transform: uppercase;
+  margin-left: 27px;
+}
+.site-main__combo-image {
+  margin-top: -15px;
+}
+
+/* MAIN STYLES END */
+/* SECTION START */
+.site-section__menu-list {
+  width: 100%;
+  margin-bottom: 105px;
+}
+.site-section__menu-list .nav-link {
+  color: #222124;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* SECTION END *//*# sourceMappingURL=main.css.map */

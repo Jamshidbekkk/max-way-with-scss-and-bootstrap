@@ -11,9 +11,7 @@
     width: 100%;
     padding-top: 28px;
     padding-bottom: 60px;
-    background: linear-gradient(to right, #FFFFFF 58%, #800A7A 42%);
-    // background-size: auto 100%; 
-    // background-repeat: no-repeat;
+    background: linear-gradient(to right, #FFFFFF 56%, #800A7A 44%);
 
     &__wrapper {
         display: flex;
@@ -40,7 +38,7 @@
 
     &__navlink {
         color: #222124;
-        font-family: 'Inter' sans-serif;
+        font-family: 'Inter', sans-serif;
         font-size: 14px;
         font-weight: 400;
         line-height: normal;
@@ -51,10 +49,10 @@
     &__contact {
         display: flex;
         align-items: center;
-        border-right: 1px solid #800A7A;
+        border-right: 1px solid #FFFFFF;
         height: 43px;
-        padding-left: 40px;
-        margin-right: 40px;
+        padding-right: 40px;
+        // margin-right: 40px;
 
         &-logo {
             margin-right: 10px;
@@ -63,7 +61,7 @@
         &-number {
             width: 136px;
             color: #FFF;
-            font-family: 'Inter' sans-serif;
+            font-family: 'Inter', sans-serif;
             font-size: 24px;
             font-weight: 700;
             line-height: 20px;
@@ -80,6 +78,7 @@
         align-items: center;
         position: relative;
         line-height: 20px;
+        margin-left: 40px;
 
         &-logo {
            margin-right: 10px;
@@ -95,7 +94,7 @@
     &__total-sum {
         height: 42px;
         color: #FFF;
-        font-family: 'Inter' sans-serif;
+        font-family: 'Inter', sans-serif;
         font-size: 24px;
         font-weight: 700;
 
@@ -108,5 +107,138 @@
 /*HEADER STYLES END */
 
 /* MAIN STYLES START */
+.site-main {
+    width: 100%;
+    height: 661px;
+    margin-bottom: 80px;
+    border-bottom: 1xp solid red;
+    background: linear-gradient(to right, #FFFFFF 56%, #800A7A 44%);
 
+    // &__wrapper {
+    //     height: 661px;
+    // border-bottom: 1xp solid red;
+
+    // }
+
+    &__wrapper-top {
+        display: flex;
+        align-items: bottom;
+    }
+
+    &__intro-heading {
+        width: 470px;
+        color: #222124;
+        font-family: 'Inter', sans-serif;
+        font-size: 80px;
+        font-weight: 900;
+        line-height: 85px;  
+        margin-bottom: 14px;
+    }
+
+    &__description {
+        color: #222124;
+        font-family: 'Inter', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32px;  
+    }
+
+    &__pitsa {
+        width: 255px;
+        height: 200px;
+        background: linear-gradient(315deg, #FFC85C 1.32%, #F1B301 96.68%);
+        border-radius: 12px;
+    }
+
+    &__button {
+        color: #FFF;
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: normal;
+        border: none;
+        border-radius: 19px;
+        background: rgba(255, 255, 255, 0.20);
+        margin-top: 20px;
+        margin-left: 31px;
+        padding: 11px 23px;
+    }
+
+    &__fire-svg {
+        margin-right: 11px;
+    }
+
+    &__pitsa-info {
+        display: flex;
+        align-items: center;
+    }
+
+    &__pitsa-title {
+        color: #E76A06;
+        font-family: 'Inter', sans-serif;
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 32px;
+        text-transform: uppercase;
+        margin-left: 30px;
+        width: 79px;
+    }
+
+    &__pitsa-image {
+        margin-top: -15px;
+    }
+
+    &__wrapper-bottom {
+        width: 551px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: -100px;
+    }
+
+    &__combo {
+        width: 255px;
+        height: 200px;
+        border-radius: 12px;
+        background: #800A7A;
+
+        &-svg {
+            margin-right: 10px;
+        }
+
+        &-info {
+            display: flex;
+            align-items: center;
+        }
+
+        &-title {
+            color: #FC96F7;
+            font-family: 'Inter', sans-serif;
+            font-size: 34px;
+            font-weight: 700;
+            line-height: 32px;
+            text-transform: uppercase;
+            margin-left: 27px;
+        }
+
+        &-image {
+            margin-top: -15px;
+        }
+    }
+}
 /* MAIN STYLES END */
+
+/* SECTION START */
+.site-section__menu-list {
+    width: 100%;
+    margin-bottom: 105px;
+
+    .nav-link {
+        color: #222124;
+        font-family: 'Inter', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+/* SECTION END */
