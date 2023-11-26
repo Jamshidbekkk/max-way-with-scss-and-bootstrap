@@ -4,3 +4,104 @@
 @import "fonts";
 @import "general";
 @import "blocks/blocks";
+
+
+/*HEADER STYLES START */
+.site-header {
+    width: 100%;
+    padding-top: 28px;
+    padding-bottom: 60px;
+    background: linear-gradient(to right, #FFFFFF 58%, #800A7A 42%);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        &-left {
+            display: flex;
+            align-items: center;
+            width: 627px;
+            justify-content: space-between;
+        }
+
+        &-right {
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    &__navlist {
+        display: flex;
+        list-style: none;
+    }
+
+    &__navlink {
+        color: #222124;
+        font-family: 'Inter' sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0 20px;
+        text-decoration: none;
+    }
+
+    &__contact {
+        display: flex;
+        align-items: center;
+        border-right: 1px solid #800A7A;
+        height: 43px;
+        padding-left: 40px;
+        margin-right: 40px;
+
+        &-logo {
+            margin-right: 10px;
+        }
+
+        &-number {
+            width: 136px;
+            color: #FFF;
+            font-family: 'Inter' sans-serif;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 20px;
+
+            span {
+                font-size: 12px;
+                font-weight: 400;
+            }
+        }
+    }
+
+    &__korzinka {
+        display: flex;
+        align-items: center;
+        position: relative;
+        line-height: 20px;
+
+        &-logo {
+           margin-right: 10px;
+        }
+    }
+
+    &__total-items {
+        position: absolute;
+        top: 7px;
+        left: 13px;
+    }
+
+    &__total-sum {
+        height: 42px;
+        color: #FFF;
+        font-family: 'Inter' sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+
+        span {
+            font-size: 12px;
+            font-weight: 400;
+        }
+    }
+}
