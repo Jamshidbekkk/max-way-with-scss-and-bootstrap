@@ -38,9 +38,9 @@
 
     &__navlink {
         color: #222124;
-        font-family: 'Inter', sans-serif;
+        font-family: $font-family-primary;
         font-size: 14px;
-        font-weight: 400;
+        font-weight: $font-weight-primary;
         line-height: normal;
         margin: 0 20px;
         text-decoration: none;
@@ -61,9 +61,9 @@
         &-number {
             width: 136px;
             color: #FFF;
-            font-family: 'Inter', sans-serif;
+            font-family: $font-family-primary;
             font-size: 24px;
-            font-weight: 700;
+            font-weight: $font-weight-third;
             line-height: 20px;
 
             span {
@@ -94,9 +94,9 @@
     &__total-sum {
         height: 42px;
         color: #FFF;
-        font-family: 'Inter', sans-serif;
+        font-family: $font-family-primary;
         font-size: 24px;
-        font-weight: 700;
+        font-weight: $font-weight-third;
 
         span {
             font-size: 12px;
@@ -114,12 +114,6 @@
     border-bottom: 1xp solid red;
     background: linear-gradient(to right, #FFFFFF 56%, #800A7A 44%);
 
-    // &__wrapper {
-    //     height: 661px;
-    // border-bottom: 1xp solid red;
-
-    // }
-
     &__wrapper-top {
         display: flex;
         align-items: bottom;
@@ -128,18 +122,18 @@
     &__intro-heading {
         width: 470px;
         color: #222124;
-        font-family: 'Inter', sans-serif;
+        font-family: $font-family-primary;
         font-size: 80px;
-        font-weight: 900;
+        font-weight: $font-weight-largest;
         line-height: 85px;  
         margin-bottom: 14px;
     }
 
     &__description {
         color: #222124;
-        font-family: 'Inter', sans-serif;
+        font-family: $font-family-primary;
         font-size: 18px;
-        font-weight: 400;
+        font-weight: $font-weight-primary;
         line-height: 32px;  
     }
 
@@ -152,9 +146,9 @@
 
     &__button {
         color: #FFF;
-        font-family: 'Inter', sans-serif;
+        font-family: $font-family-primary;
         font-size: 16px;
-        font-weight: 500;
+        font-weight: $font-weight-secondary;
         line-height: normal;
         border: none;
         border-radius: 19px;
@@ -175,9 +169,9 @@
 
     &__pitsa-title {
         color: #E76A06;
-        font-family: 'Inter', sans-serif;
+        font-family: $font-family-primary;
         font-size: 34px;
-        font-weight: 700;
+        font-weight: $font-weight-third;
         line-height: 32px;
         text-transform: uppercase;
         margin-left: 30px;
@@ -213,9 +207,9 @@
 
         &-title {
             color: #FC96F7;
-            font-family: 'Inter', sans-serif;
+            font-family: $font-family-primary;
             font-size: 34px;
-            font-weight: 700;
+            font-weight: $font-weight-third;
             line-height: 32px;
             text-transform: uppercase;
             margin-left: 27px;
@@ -231,14 +225,178 @@
 /* SECTION START */
 .site-section__menu-list {
     width: 100%;
-    margin-bottom: 105px;
 
     .nav-link {
         color: #222124;
-        font-family: 'Inter', sans-serif;
+        font-family: $font-family-primary;
         font-size: 20px;
-        font-weight: 400;
+        font-weight: $font-family-primary;
         line-height: normal;
     }
 }
 /* SECTION END */
+
+/* SECTION START */
+.pitsa-menu {
+    width: 100%;
+
+    &__item-list {
+        display: flex;
+        align-items: center;
+    }
+
+    &__item-image {
+        position: relative;
+    }
+
+    .brand-new__icon {
+        position: absolute;
+        left: 10px;
+        padding: 9px 13px 17px;
+        border-radius: 25px;
+        background: rgba(255, 255, 255, 0.25);
+        box-shadow: 0px 7px 40px 0px rgba(238, 39, 68, 0.36);
+        backdrop-filter: blur(4.077422618865967px);
+    }
+
+    &__item-image {
+        margin-right: 41px;
+    }
+
+    &__item-name {
+        display: flex;
+        align-items: start
+    }
+}
+.menu-content__div {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 30px;
+}
+.menu-item__price-info {
+    display: flex;
+    align-items: start;
+}
+.plus-icon {
+    background: #F1B301;
+    padding: 13px;
+    border-radius: 50%;
+}
+h2.menu-content {
+    @include menu-content;
+}
+div.main-menu__items {
+    @include main-menu-items;
+    display: flex
+}
+h4.title {
+    @include title;
+}
+p.menu-item__ingredients {
+    @include menu-item__ingredients;
+}
+p.price {
+    @include price;
+}
+/* SECTION END */
+
+/* SECTION START */
+.order-by__mobile-app {
+    width: 100%;
+    background-color: $background-color-primary;
+    margin-top: 173px;
+    margin-bottom: 125px;
+    padding-top: 75px;
+    padding-bottom: 94px;
+
+    .order-by__title {
+        @include order-by-title;
+    }
+
+    .order-by__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .download-app {
+        @include download-app;
+    }
+
+    .download-app:first-of-type {
+        margin-right: 30px;
+    }
+
+    .yellow-line {
+        margin-right: -300px;
+        margin-top: -80px;
+    }
+
+    .phone {
+        position: absolute;
+        right: -150px;
+        bottom: -120px;
+    }
+}
+/* SECTION END */
+
+/* FOOTER START */
+.site-footer {
+    width: 100%;
+    padding-bottom: 40px;
+
+    &__wrapper {
+        display: flex;
+        align-items: start;
+    }
+    &__head-nav {
+        @include head-nav;
+    }
+    &__navitem {
+        list-style: none;
+    }
+    &__navlink {
+        color: $color-primary;
+        font-family: ProximaNova;
+        font-size: 14px;
+        font-weight: $font-weight-primary;
+        line-height: 34px;
+        text-decoration: none;
+    }
+    .footer-logo {
+        margin-right: 138px;
+    }
+    &__navlist:nth-child(2) {
+        margin-right: 84px;
+    }
+    &__navlist:nth-child(3) {
+        margin-right: 230px;
+    }
+    .navlink-last {
+        color: $color-primary;
+        font-family: $font-family-primary;
+        font-size: 25px;
+        font-weight: $font-weight-primary;
+        line-height: 33px; 
+    }
+    .navlink-final {
+        width: 286px;
+    }
+    .social-media__contacts {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid #979797;
+        padding-top: 30px;
+
+        .social-media__links {
+            padding-right: 51px;
+
+            .social-media__links-items {
+                margin: 0 6px;
+            }
+        }
+    }
+}
+/* FOOTER END */

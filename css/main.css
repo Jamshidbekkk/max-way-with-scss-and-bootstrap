@@ -418,7 +418,7 @@ main {
 }
 .site-header__navlink {
   color: #222124;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter" sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: normal;
@@ -438,7 +438,7 @@ main {
 .site-header__contact-number {
   width: 136px;
   color: #FFF;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter" sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 20px;
@@ -465,7 +465,7 @@ main {
 .site-header__total-sum {
   height: 42px;
   color: #FFF;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter" sans-serif;
   font-size: 24px;
   font-weight: 700;
 }
@@ -490,7 +490,7 @@ main {
 .site-main__intro-heading {
   width: 470px;
   color: #222124;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter" sans-serif;
   font-size: 80px;
   font-weight: 900;
   line-height: 85px;
@@ -498,7 +498,7 @@ main {
 }
 .site-main__description {
   color: #222124;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter" sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 32px;
@@ -511,7 +511,7 @@ main {
 }
 .site-main__button {
   color: #FFF;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter" sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: normal;
@@ -531,7 +531,7 @@ main {
 }
 .site-main__pitsa-title {
   color: #E76A06;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter" sans-serif;
   font-size: 34px;
   font-weight: 700;
   line-height: 32px;
@@ -564,7 +564,7 @@ main {
 }
 .site-main__combo-title {
   color: #FC96F7;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter" sans-serif;
   font-size: 34px;
   font-weight: 700;
   line-height: 32px;
@@ -579,14 +579,217 @@ main {
 /* SECTION START */
 .site-section__menu-list {
   width: 100%;
-  margin-bottom: 105px;
 }
 .site-section__menu-list .nav-link {
   color: #222124;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter" sans-serif;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: "Inter" sans-serif;
   line-height: normal;
 }
 
-/* SECTION END *//*# sourceMappingURL=main.css.map */
+/* SECTION END */
+/* SECTION START */
+.pitsa-menu {
+  width: 100%;
+}
+.pitsa-menu__item-list {
+  display: flex;
+  align-items: center;
+}
+.pitsa-menu__item-image {
+  position: relative;
+}
+.pitsa-menu .brand-new__icon {
+  position: absolute;
+  left: 10px;
+  padding: 9px 13px 17px;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0px 7px 40px 0px rgba(238, 39, 68, 0.36);
+  -webkit-backdrop-filter: blur(4.0774226189px);
+          backdrop-filter: blur(4.0774226189px);
+}
+.pitsa-menu__item-image {
+  margin-right: 41px;
+}
+.pitsa-menu__item-name {
+  display: flex;
+  align-items: start;
+}
+
+.menu-content__div {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 30px;
+}
+
+.menu-item__price-info {
+  display: flex;
+  align-items: start;
+}
+
+.plus-icon {
+  background: #F1B301;
+  padding: 13px;
+  border-radius: 50%;
+}
+
+h2.menu-content {
+  color: #222124;
+  font-family: "Inter" sans-serif;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 105px;
+  margin-bottom: 30px;
+}
+
+div.main-menu__items {
+  width: 540px;
+  border-radius: 12px;
+  border: 1px solid rgba(151, 151, 151, 0.18);
+  padding: 30px 30px 20px;
+  display: flex;
+}
+
+h4.title {
+  color: #222124;
+  font-family: "Inter" sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+  margin-right: 17px;
+}
+
+p.menu-item__ingredients {
+  color: #222124;
+  font-family: "Inter" sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.4;
+  width: 212px;
+  margin-top: 10px;
+  margin-bottom: 13px;
+}
+
+p.price {
+  color: #222124;
+  font-family: "Inter" sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  margin-right: 67px;
+  padding-top: 11px;
+}
+
+/* SECTION END */
+/* SECTION START */
+.order-by__mobile-app {
+  width: 100%;
+  background-color: #800A7A;
+  margin-top: 173px;
+  margin-bottom: 125px;
+  padding-top: 75px;
+  padding-bottom: 94px;
+}
+.order-by__mobile-app .order-by__title {
+  color: #FFFFFF;
+  font-family: "Inter" sans-serif;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 581px;
+  margin-bottom: 63px;
+}
+.order-by__mobile-app .order-by__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.order-by__mobile-app .download-app {
+  background: transparent;
+  padding: 18px 32px;
+  border: 1px solid rgba(255, 255, 255, 0.2941176471);
+  border-radius: 50px;
+}
+.order-by__mobile-app .download-app:first-of-type {
+  margin-right: 30px;
+}
+.order-by__mobile-app .yellow-line {
+  margin-right: -300px;
+  margin-top: -80px;
+}
+.order-by__mobile-app .phone {
+  position: absolute;
+  right: -150px;
+  bottom: -120px;
+}
+
+/* SECTION END */
+/* FOOTER START */
+.site-footer {
+  width: 100%;
+  padding-bottom: 40px;
+}
+.site-footer__wrapper {
+  display: flex;
+  align-items: start;
+}
+.site-footer__head-nav {
+  color: #003846;
+  font-family: ProximaNova;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 18px;
+  padding-left: 30px;
+  margin-bottom: 24px;
+}
+.site-footer__navitem {
+  list-style: none;
+}
+.site-footer__navlink {
+  color: #222124;
+  font-family: ProximaNova;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 34px;
+  text-decoration: none;
+}
+.site-footer .footer-logo {
+  margin-right: 138px;
+}
+.site-footer__navlist:nth-child(2) {
+  margin-right: 84px;
+}
+.site-footer__navlist:nth-child(3) {
+  margin-right: 230px;
+}
+.site-footer .navlink-last {
+  color: #222124;
+  font-family: "Inter" sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 33px;
+}
+.site-footer .navlink-final {
+  width: 286px;
+}
+.site-footer .social-media__contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #979797;
+  padding-top: 30px;
+}
+.site-footer .social-media__contacts .social-media__links {
+  padding-right: 51px;
+}
+.site-footer .social-media__contacts .social-media__links .social-media__links-items {
+  margin: 0 6px;
+}
+
+/* FOOTER END *//*# sourceMappingURL=main.css.map */

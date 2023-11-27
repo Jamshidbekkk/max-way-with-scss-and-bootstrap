@@ -1,0 +1,75 @@
+@mixin menu-content {
+    color: #222124;
+    font-family: $font-family-primary;
+    font-size: 52px;
+    font-weight: $font-weight-third;
+    line-height: normal;
+    margin-top: 105px;
+    margin-bottom: 30px;
+}
+
+@mixin main-menu-items {
+    width: 540px;
+    border-radius: 12px;
+    border: 1px solid rgba(151, 151, 151, 0.18);
+    padding: 30px 30px 20px;
+}
+
+@mixin title {
+    color: $color-primary;
+    font-family: $font-family-primary;
+    font-size: 24px;
+    font-weight: $font-weight-secondary;
+    line-height: normal;
+    margin-right: 17px;
+}
+
+@mixin menu-item__ingredients {
+    color: $color-primary;
+    font-family: $font-family-primary;
+    font-size: 14px;
+    font-weight: $font-weight-primary;
+    line-height: normal;
+    opacity: 0.4;
+    width: 212px;
+    margin-top: 10px;
+    margin-bottom: 13px;
+}
+
+@mixin price {
+    color: $color-primary;
+    font-family: $font-family-primary;
+    font-size: 24px;
+    font-weight: $font-weight-third;
+    line-height: normal; 
+    margin-right: 67px;
+    padding-top: 11px;
+}
+
+@mixin order-by-title {
+    color: $color-secondary;
+    font-family: $font-family-primary;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: $font-weight-third;
+    line-height: normal;
+    width: 581px;
+    margin-bottom: 63px;
+}
+
+@mixin download-app {
+    background: transparent;
+    padding: 18px 32px;
+    border: 1px solid #FFFFFF4B;
+    border-radius: 50px;
+}
+
+@mixin head-nav {
+    color: #003846;
+    font-family: ProximaNova;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 18px;
+    padding-left: 30px;
+    margin-bottom: 24px;
+}
